@@ -1,5 +1,9 @@
 
-a:link{
+body{
+    background-color: #f8f9fa;
+}
+
+a:link,a:visited,a:hover,a:active{
 font-family: Arial,Helvetica,sans-serif;
 font-weight: 700;
 letter-spacing: 0em;
@@ -13,55 +17,21 @@ text-transform: uppercase;
 color: #bbbdb7;
 }
 
-.media-social{
-    max-width: 500px;
-    max-height: 500px;
+
+
+
+
+ #myCarousel img {
+
+    width: auto;
     
-}
-
-
-
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
+    height: 100vh;
+    
+   
+    
     }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
 
 .galeria{
-    width:40%;
+    margin-top:50px
 }
+
